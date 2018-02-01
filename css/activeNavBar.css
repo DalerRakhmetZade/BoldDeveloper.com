@@ -1,0 +1,15 @@
+
+ 
+
+.sidebar .menu .active i{
+	transition: 0.8s;
+	transform: rotateY(360deg);
+	
+	
+	
+	
+}
+
+ 
+/
+section.active {}
