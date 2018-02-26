@@ -3,12 +3,13 @@
 
 .sidebar .menu .active i{
 	transition: 0.8s;
-	transform: rotateY(360deg);
-	
-	
-	
+	transform: rotateY(360deg);	
+}
+.scroll {
+	opacity: 1;
 	
 }
+
 
  
 /
