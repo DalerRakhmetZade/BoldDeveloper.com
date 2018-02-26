@@ -17,5 +17,13 @@ $(window).on('scroll', function () {
       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
     }
   });
+  $(window).scroll(function() {
+	if ($(document).scrollTop() > 700) {
+		$('nav').addClass('scroll');	
+	}
+	else {
+		$('nav').removeClass('scroll');
+	}
+});
 });
 
